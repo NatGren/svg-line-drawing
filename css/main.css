@@ -1,0 +1,100 @@
+html {
+  font-family: "Unica One", sans-serif;
+  color: #fff;
+}
+
+h1 {
+  position: absolute;
+  left: 20px;
+  top: 25px;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+
+  from { opacity: 0; }
+
+  to { opacity: 0; }
+
+}
+
+#narwhal-body {
+  stroke-dashoffset: 2641.8912px;
+  stroke-dasharray: 2641.8912px;
+  animation: lines 2s .5s forwards;
+}
+
+@keyframes lines {
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#narwhal-eye {
+  opacity: 0;
+  animation: eye-fadein 1s 1s forwards;
+}
+
+@keyframes eye-fadein {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
+
+#rainbow-violet {
+  animation: line 2s 3s;
+  stroke-dashoffset: 256.916px;
+  stroke-dasharray: 256.916px;
+}
+
+#rainbow-indigo {
+  animation: line 2s 3s;
+  stroke-dashoffset: 2416.5696px;
+  stroke-dasharray: 2416.5696px;
+}
+
+#rainbow-blue {
+  animation: line 2s 3s;
+  stroke-dashoffset: 2273.9712px;
+  stroke-dasharray: 2273.9712px;
+}
+
+#rainbow-orange {
+  animation: line 2s 3s;
+  stroke-dashoffset: 1821.6768px;
+  stroke-dasharray: 1821.6768px;
+}
+
+#rainbow-green {
+  animation: line 2s 3s;
+  stroke-dashoffset: 2128.0608px;
+  stroke-dasharray: 2128.0608px;
+}
+
+#rainbow-yellow {
+  animation: line 2s 3s;
+  stroke-dashoffset: 1977.8016px;
+  stroke-dasharray: 1977.8016px;
+}
+
+#rainbow-red {
+  animation: line 2s 3s;
+  stroke-dashoffset: 1657.4784px;
+  stroke-dasharray: 1657.4784px;
+}
+
+@keyframes line {
+
+  100% {
+    transform: translateX(-15px);
+  }
+
+}
